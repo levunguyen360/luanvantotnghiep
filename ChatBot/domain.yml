@@ -1,0 +1,93 @@
+version: "2.0"
+
+intents:
+     - chao_hoi
+     - tam_biet
+     - dong_y
+     - tu_choi
+     - khen
+     - danh_gia_tot_sp
+     - danh_gia_xau_sp
+     - danh_gia_tot_giao_hang
+     - danh_gia_xau_giao_hang
+     - quest_dia_chi_tg
+     - quest_giao_hang
+     - quest_huong_dan
+     - quest_thanh_toan
+     - quest_dat_hang
+     - quest_goi_y
+     - give_name
+     - quest_price_max
+     - quest_price_min
+     - quest_hot_product
+     - quest_good_ratting
+     - quest_bad_ratting
+
+entities:
+     - cust_name
+
+slots:
+     cust_name:
+          auto_fill: true
+          type: text
+
+responses:
+     utter_chao_hoi:
+          - text: "Kính chào Quý Khách. Tôi có thể giúp gì được cho bạn ?"
+          - text: "Cửa Hàng Thực Phẩm kính chào quý khách. Tôi có thể giúp gì được cho bạn ?"
+
+     utter_chao_hoi_co_ten:
+          - text: "Kính chào {cust_name}. Cửa Hàng Thực Phẩm có thể giúp gì được {cust_name} ạ?"
+
+     utter_tam_biet:
+          - text: "Cám ơn bạn đã sử dụng dịch vụ tại Cửa Hàng Thực Phẩm. Mong sớm gập lại quý khách trong thời gian tới."
+
+     utter_dong_y:
+          - text: "Cám ơn bạn đã sử dụng dịch vụ của chúng tôi."
+
+     utter_khen:
+          - text: "Cám ơn bạn đã sử dụng dịch vụ của chúng tôi."
+
+     utter_danh_gia_tot_sp:
+          - text: "Cám ơn bạn đã đánh giá tốt sản phẩm ạ"
+
+     utter_danh_gia_xau_sp:
+          - text: "Cửa hàng sẻ xem xét đánh giá lại sản phẩm. Cám ơn bạn đã đóng góp ý kiến."
+
+     utter_danh_gia_tot_giao_hang:
+          - text: "Cám ơn bạn đã đánh giá giao hàng. Cửa hàng sẻ tiếp tục duy trì và phát triển hơn."
+
+     utter_danh_gia_xau_giao_hang:
+          - text: "Cám ơn bạn đã đánh giá giao hàng. Cửa hàng sẻ khắc phục lỗi này."
+
+     utter_quest_dia_chi_tg:
+          - text: "Cửa Hàng Thực Phẩm có Địa chỉ: 40 Ngô Quyền, phường 9, TP Cà Mau, tỉnh Cà Mau. Cửa hàng mở cửa từ 6h00 - 22h00 tất cả các ngày trong tuần. Liên hệ: 0946275360"
+
+     utter_quest_giao_hang:
+          - text: "Hiện tại cửa hàng có giao trong nội ô thành phố Cà Mau. Miễn phí giao hàng cho đơn hàng từ 200.000đ"
+
+     utter_quest_huong_dan:
+          - text: "Bạn vui lòng truy cập trang http://localhost:3000 và làm theo hướng dẫn."
+
+     utter_quest_thanh_toan:
+          - text: "Hiện tại cửa hàng có thể thanh toán online qua VNPay hoặc có thể thanh toán khi nhận hàng. Không cần trả trước."
+
+     utter_quest_dat_hang:
+          - text: "Cửa hàng chúng tôi có hổ trợ đặt trước và can kết giao hàng gần đúng thời gian khách hàng chọn."
+
+     utter_quest_goi_y:
+          - text: "Tôi có thể trả lời một số câu hỏi của bạn mà tôi biết."
+
+     utter_unclear:
+          - text: "Thưa quý khách hiện tại tôi chưa hiểu được yêu cầu của quý khách."
+
+actions:
+     - cation_price_max
+     - cation_price_min
+     - cation_hot_product
+     - cation_good_ratting
+     - cation_bad_ratting
+
+session_config:
+     session_expiration_time: 60
+     carry_over_slots_to_new_session: true

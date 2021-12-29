@@ -1,0 +1,248 @@
+version: "2.0"
+
+stories:
+
+# chao - hoi ten - chao ten - 
+- story: story 1
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_dia_chi_tg
+  - action: utter_quest_dia_chi_tg
+  - intent: quest_giao_hang
+  - action: utter_quest_giao_hang
+  - intent: quest_thanh_toan
+  - action: utter_quest_thanh_toan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 2
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: danh_gia_tot_sp
+  - action: utter_danh_gia_tot_sp
+  - intent: danh_gia_xau_sp
+  - action: utter_danh_gia_xau_sp
+  - intent: danh_gia_tot_giao_hang
+  - action: utter_danh_gia_tot_giao_hang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 3
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_dia_chi_tg
+  - action: utter_quest_dia_chi_tg
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 4
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: khen
+  - action: utter_khen
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 5
+  steps:
+  - intent: danh_gia_tot_sp
+  - action: utter_danh_gia_tot_sp
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 6
+  steps:
+  - intent: danh_gia_xau_sp
+  - action: utter_danh_gia_xau_sp
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 7
+  steps:
+  - intent: danh_gia_tot_giao_hang
+  - action: utter_danh_gia_tot_giao_hang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 8
+  steps:
+  - intent: danh_gia_xau_giao_hang
+  - action: utter_danh_gia_xau_giao_hang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 9
+  steps:
+  - intent: quest_dia_chi_tg
+  - action: utter_quest_dia_chi_tg
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 10
+  steps:
+  - intent: quest_giao_hang
+  - action: utter_quest_giao_hang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 11
+  steps:
+  - intent: quest_huong_dan
+  - action: utter_quest_huong_dan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 12
+  steps:
+  - intent: quest_thanh_toan
+  - action: utter_quest_thanh_toan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 12
+  steps:
+  - intent: quest_dat_hang
+  - action: utter_quest_dat_hang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 13
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: khen
+  - action: utter_khen
+  - intent: dong_y
+  - action: utter_dong_y
+
+- story: story 14
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_huong_dan
+  - action: utter_quest_huong_dan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 14
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_huong_dan
+  - action: utter_quest_huong_dan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 15
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_huong_dan
+  - action: utter_quest_huong_dan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 16
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: quest_huong_dan
+  - action: utter_quest_huong_dan
+  - intent: quest_dia_chi_tg
+  - action: utter_quest_dia_chi_tg
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 17
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: give_name
+  - action: utter_chao_hoi_co_ten
+  - intent: khen
+  - action: utter_khen
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_dia_chi_tg
+  - action: utter_quest_dia_chi_tg
+  - intent: quest_thanh_toan
+  - action: utter_quest_thanh_toan
+  - intent: quest_price_max
+  - action: cation_price_max
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: story 18
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_price_max
+  - action: cation_price_max
+
+- story: story 19
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_price_max
+  - action: cation_price_max
+  - intent: quest_price_min
+  - action: cation_price_min
+  - intent: quest_hot_product
+  - action: cation_hot_product
+  - intent: quest_good_ratting
+  - action: cation_good_ratting
+  - intent: quest_bad_ratting
+  - action: cation_bad_ratting
+
+- story: story 19
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: quest_goi_y
+  - action: utter_quest_goi_y
+  - intent: quest_price_max
+  - action: cation_price_max
+  - intent: quest_price_min
+  - action: cation_price_min
+  - intent: quest_hot_product
+  - action: cation_hot_product
+  - intent: quest_good_ratting
+  - action: cation_good_ratting
+  - intent: quest_bad_ratting
+  - action: cation_bad_ratting
+  - intent: tam_biet
+  - action: utter_tam_biet

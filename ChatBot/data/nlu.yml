@@ -1,0 +1,338 @@
+version: "2.0"
+
+nlu:
+- intent: chao_hoi
+  examples: |
+    - hey
+    - hello
+    - hi
+    - chào bạn
+    - tôi có một vài câu muốn hỏi
+    - tôi có một số thắc mắc
+    - bạn có thể trả lời một số câu hỏi của tôi không
+    - có ai ở đây không
+    - alo
+    - say
+    - hey
+    - hỏi một chút
+    - bạn có thể trả lời tui được không
+    - xin lỗi đã làm phền
+    - chào buổi sáng
+    - chào buổi chiều
+    - chào buổi tối
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - .
+    - ...
+
+- intent: tam_biet
+  examples: |
+    - tạm biệt
+    - hẹn gập lại
+    - bye
+    - cám ơn đã trả lời
+    - xin lỗi đã làm phiền
+    - cám ơn đã phục vụ
+    - chào tạm biệt
+    - bye you
+    - see you again
+    - It was nice meeting you
+    - I gotta take off 
+    - Tôi phải đi đây
+    - Talk to you later
+    - Nói chuyện sau
+    - See you next time
+    - Hẹn gặp lại cậu
+    - Have a good one
+    - Chúc may mắn
+    - Have a nice day
+    - Ngày tốt lành nhé
+    - I must be going
+    - Tớ có việc mất rồi
+    - Goodbye
+    - Bye-bye
+    - Bái bai
+    - Farewell
+    - Mạnh giỏi
+    - Cheerio
+    - Đi đi
+    - See you again 
+    - See you soon
+    - Hẹn gặp lại
+    - Take care
+    - Bảo trọng
+    - Take it easy
+    - Đi thong thả
+    - I'm off
+    - Tôi đi đây
+    - Gotta go! Đi đây!
+    - Good night
+    - Ngủ ngon nhé
+    - Bye for now
+    - Tạm biệt
+    - See you later
+    - Gặp lại sau
+    - Keep in touch
+    - Nhớ nhắn nhé
+    - Catch you later
+    - Gặp cậu sau
+    - See you soon
+    - Hẹn gặp lại
+    - So long
+    -Tạm biệt  
+
+- intent: dong_y
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - vâng
+    - dạ
+    - đồng ý
+    - ok
+    - chốt
+    - tôi đồng ý
+    - tôi hài lòng
+    - tôi đồng ý đặt sản phẩm này
+    - tôi chấp nhận với điều khoản trên
+
+- intent: tu_choi
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - không 
+    - tôi sẻ tìm hiểu thêm
+    - tôi không chắc
+    - tôi cần tìm hiểu thêm về sản phẩm
+    - tôi chưa chắc
+    - tôi không chắc
+    - không chắc
+    - chưa biết  
+
+- intent: khen
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - tốt lắm
+    - quá hay 
+    - sản phẩm tuyệt vời 
+    - các phục vụ tốt
+    - tuyệt
+    - good
+    - hay
+    - bạn thật tuyệt
+    - sản phẩm rất tốt
+    - sản phẩm tươi ngon
+    - giao hàng đúng hẹn
+    - rau tươi
+    - cá tươi
+    - rau củ tạm ổn
+    - so very much
+
+- intent: danh_gia_tot_sp
+  examples: |
+    - sản phẩm tốt
+    - sản phẩm chất lượng
+    - thực phẩm tươi ngon
+    - giá cả phải chăng
+    - giá rẻ
+    - tuyệt vời
+    - thực phẩm sạch
+    - không thuốc trừ sâu
+    - giá vừa túi tiền
+    - giá thấp hơn so với mặc bằng chung
+
+- intent: danh_gia_xau_sp
+  examples: |
+    - sản phẩm quá tệ
+    - rau không tươi
+    - thịt không tươi
+    - không hài lòng về sản phẩm
+    - sản phẩm không như mong muốn
+    - cần cải thiện thêm về sản phẩm
+    - cần cải thiện thêm về chất lượng
+    - sản sản phẩm không còn tươi ngon
+    - sản phẩm không như quảng cáo
+
+- intent: danh_gia_tot_giao_hang
+  examples: |
+    - giao hàng nhanh chóng
+    - đóng gói cẩn thận
+    - nhân viên giao hàng thân thiện
+    - thái độ phục vụ nhân viên giao hàng tốt
+
+- intent: danh_gia_xau_giao_hang
+  examples: |
+    - giao hàng quá chậm
+    - nhân viên giao hàng không cư xử không tốt
+    - gia hàng không như mong muốn
+    - giao hàng không đúng hạn
+    - giao hàng chậm
+
+- intent: quest_dia_chi_tg
+  examples: |
+    - địa chỉ cửa hàng 
+    - cửa hàng mình ở đâu
+    - thời gian hoạt động
+    - mấy giờ mở của
+    - thời gian đóng cửa
+    - khi nào mình đóng cửa
+    - mở cửa vào khi nào
+    - cửa hàng có mở cửa vào chử nhật không
+    - chủ nhật có bán không
+    - liên lạc với cửa hàng như thế nào
+    - liên lạc ra sao
+    - liên hệ như thế nào
+    - số hotline
+    - đường dây nóng
+
+- intent: quest_giao_hang
+  examples: |
+    - có bán mang về không
+    - cửa hàng có hổ trợ giao hàng không
+    - có giao hàng trong nội ô không
+    - có giao về Cần thơ không
+    - có ship xa hay không
+    - có free ship không
+    - ship trong bao lâu
+    - có ship ngay không
+
+- intent: quest_huong_dan
+  examples: |
+    - làm thế nào để đặt hàng
+    - đặt hàng như thế nào
+    - làm sao để mua hàng
+    - các bước để đặt hàng 
+    - tôi có thể đặt hàng bằng cách nào
+    - làm sao để đặt hàng
+    - đặt hàng sao
+    - mua hàng như thế nào
+    - đặt hàng cần gì
+
+- intent: quest_thanh_toan
+  examples: |
+    - các hình thức thanh toán 
+    - cửa hàng có hình thức thanh toán nào
+    - tôi có thể thanh toán qua ví điện tử không
+    - tôi có thể thanh toán tiền mặc
+    - thanh toán khi nhận hàng
+    - có cần trả trước không
+    - có cọc không
+
+- intent: quest_dat_hang
+  examples: |
+    - có thể đặt hàng trước không
+    - đặt có giao liền không
+    - đặt có giao liền không
+    - sau bao lâu để xát nhận đơn
+    - tôi cần cung cấp thông tin gì khi đặt hàng
+    - có cần cọc trước không
+    
+- intent: quest_goi_y
+  examples: |
+    - tôi có thể hỏi bạn về gì
+    - bạn có thể trả lời những vấn đề nào
+    - bạn có thể hát không
+    - bạn làm được mọi thứ không
+    - bạn có thể giải quyết tất cả vấn đề chứ
+    - tôi có thể hỏi bạn những gì
+
+- intent: give_name
+  examples: |
+    - [Nguyên](cust_name)
+    - [Lê Vũ Nguyên](cust_name)
+    - [Vũ Nguyên](cust_name)
+    - [Huyền](cust_name)
+    - (cust_name)
+    - [Ni](cust_name)
+    - [Sơn](cust_name)
+    - [Sang](cust_name)
+    - [Thành](cust_name)
+    - [Văn](cust_name)
+    - [Nguyệt](cust_name)
+    - [Vũ](cust_name)
+    - [Mỷ Huyền](cust_name)
+
+- intent: quest_price_max
+  examples: |
+    - Món có giá mắc nhất
+    - Sản phẩm có giá cao nhất
+    - Sản phẩm có giá đắt nhất
+    - món có giá cao nhất
+    - món có giá đắt nhất
+    - Sản phẩm có giá đắt nhất
+    - giá max nhất
+    - sản phẩm giá max
+    - món mắc nhất
+    - món giá cao
+    - món đắt
+
+- intent: quest_price_min
+  examples: |
+    - Món có giá rẻ
+    - Sản phẩm có giá thấp nhất
+    - Sản phẩm có giá rẻ nhất
+    - món có giá thấp nhất
+    - món có giá rẻ nhất
+    - Sản phẩm có giá thấp nhất
+    - giá min nhất
+    - sản phẩm giá min
+    - món rẻ nhất
+    - món rẻ
+
+- intent: quest_hot_product
+  examples: |
+    - Sản phẩm hot nhất
+    - sản phẩm được tìm kiếm nhiều nhất
+    - sản phẩm nổi tiếng 
+    - sản phẩm hot nhất tại cửa hàng
+    - hot nhất
+    - hot
+
+- intent: quest_good_ratting
+  examples: |
+    - Sản phẩm được đánh giá tốt
+    - sản phẩm được đánh giá cao
+    - món có đánh giá tốt
+    - sản phẩm có đánh giá tốt
+    - sản phẩm đánh giá 5 sao
+    - món 5s
+    - sản phẩm 5s
+    - sản phẩm tốt
+    - tốt nhất
+    - sản phẩm ổn nhất
+    - sản phẩm ok nhất
+
+- intent: quest_bad_ratting
+  examples: |
+    - sản phẩm không được ưa chuộng
+    - sản phẩm thấp sao
+    - sản phẩm có số sao thất
+    - sản phẩm có đánh giá thấp
+    - sản phẩm không được ưa chuộng
+    - món thấp sao
+    - món ít đc ưa chuộng

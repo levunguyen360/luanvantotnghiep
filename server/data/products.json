@@ -1,0 +1,325 @@
+[
+     {
+          "name": "Thit Heo (500g)",
+          "price": "100000",
+          "description": "thịt heo nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/asdffsadfghm_q3fee6",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596088/cuahangthucpham/image/upload/v1/products/asdffsadfghm_q3fee6.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Thit Heo (100g)",
+          "price": "100000",
+          "description": "thịt heo nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/asdffsadfghm_q3fee6",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596088/cuahangthucpham/image/upload/v1/products/asdffsadfghm_q3fee6.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Thit ga (500g)",
+          "price": "90000",
+          "description": "thịt gà nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_2_pi4kbr",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_2_pi4kbr.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Thit ga (100g)",
+          "price": "90000",
+          "description": "thịt gà nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_2_pi4kbr",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_2_pi4kbr.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Thịt Ba Chỉ (500g)",
+          "price": "130000",
+          "description": "thịt bò ba chỉ nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_1_hye13e",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_1_hye13e.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Thịt Ba Chỉ (100g)",
+          "price": "130000",
+          "description": "thịt bò ba chỉ nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_1_hye13e",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_1_hye13e.jpg"
+               }
+          ],
+          "category": "Thịt",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Trứng Gà (1 chục)",
+          "price": "29000",
+          "description": "trứng gà công nghiệp",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/zxcvbbvcs_o7m7ry",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/zxcvbbvcs_o7m7ry.jpg"
+               }
+          ],
+          "category": "Trứng",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Táo (500g)",
+          "price": "85000",
+          "description": "Táo nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/asdfghjkhgnbfvdcs_jwphfw",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596596/cuahangthucpham/image/upload/v1/products/asdfghjkhgnbfvdcs_jwphfw.jpg"
+               }
+          ],
+          "category": "Trái Cây",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Nho (500)",
+          "price": "85000",
+          "description": "Nho Mỹ nhập khẩu",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_3_zuk43o",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_3_zuk43o.jpg"
+               }
+          ],
+          "category": "Trái Cây",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Chuối (1 nãi)",
+          "price": "20000",
+          "description": "Chuối Già VN",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_4_jwzjj9",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/download_4_jwzjj9.jpg"
+               }
+          ],
+          "category": "Trái Cây",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Cá Hồi (500g)",
+          "price": "220000",
+          "description": "Cá Hồi Tươi",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/cahoi_fkinhd",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596596/cuahangthucpham/image/upload/v1/products/cahoi_fkinhd.jpg"
+               }
+          ],
+          "category": "Cá",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Cá Hồi (100g)",
+          "price": "220000",
+          "description": "Cá Hồi Tươi",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/cahoi_fkinhd",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596596/cuahangthucpham/image/upload/v1/products/cahoi_fkinhd.jpg"
+               }
+          ],
+          "category": "Cá",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Sữa (1 hộp)",
+          "price": "15000",
+          "description": "Sữa TH trueMilk",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/asdfghfaasdfgh_t3uni2",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596600/cuahangthucpham/image/upload/v1/products/asdfghfaasdfgh_t3uni2.jpg"
+               }
+          ],
+          "category": "Thức Uống",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Gạo (1kg)",
+          "price": "19000",
+          "description": "Gạo tươi VN",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/ewhngnfegbnvdvg_awzuny",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596594/cuahangthucpham/image/upload/v1/products/ewhngnfegbnvdvg_awzuny.jpg"
+               }
+          ],
+          "category": "Gạo",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Dầu ăn megan gold",
+          "price": "39000",
+          "description": "dầu ăn thực vật",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/2e323ebada49eb1ff9c8dfa9cd7573f9_foaqzr",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596597/cuahangthucpham/image/upload/v1/products/2e323ebada49eb1ff9c8dfa9cd7573f9_foaqzr.jpg"
+               }
+          ],
+          "category": "Gia Vị",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Dầu ăn",
+          "price": "30000",
+          "description": "dầu ăn",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/dfdbasgn_avjuyq",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/dfdbasgn_avjuyq.jpg"
+               }
+          ],
+          "category": "Gia Vị",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "Nước rữa chén",
+          "price": "19000",
+          "description": "hương trà xanh",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/nuoc-rua-chen-sunlight-tra-xanh-750g_1db891649b434bf483f25b387bb6f1c7_grande_zjfnuo",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596595/cuahangthucpham/image/upload/v1/products/nuoc-rua-chen-sunlight-tra-xanh-750g_1db891649b434bf483f25b387bb6f1c7_grande_zjfnuo.jpg"
+               }
+          ],
+          "category": "Dụng Cụ Nhà Bếp",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "nước rữa chén",
+          "price": "19000",
+          "description": "hương canh",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/download_eu8ly0",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596594/cuahangthucpham/image/upload/v1/products/download_eu8ly0.jpg"
+               }
+          ],
+          "category": "Dụng Cụ Nhà Bếp",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     },
+     {
+          "name": "cải xanh (100g)",
+          "price": "19000",
+          "description": "Rau vườn",
+          "rating": 5,
+          "images": [
+               {
+                    "public_id": "products/asdfghjaxzcvb_h4o4fm",
+                    "url": "https://res.cloudinary.com/no-no/image/upload/v1630596596/cuahangthucpham/image/upload/v1/products/asdfghjaxzcvb_h4o4fm.jpg"
+               }
+          ],
+          "category": "Rau",
+          "seller": "Nguyen Van A",
+          "stock": 50,
+          "numOfReviews": 10,
+          "reviews": []
+     }
+]
